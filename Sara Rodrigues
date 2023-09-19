@@ -1,0 +1,45 @@
+// this is Sara Rodrigues
+
+//exercicio
+//1) O codigo esta percorrendo os valores contidos no array, o valor impresso será 10
+
+//2) 
+//a - irá aparecer os números a partir do 18
+//b)
+//3) 
+
+
+//escrita de codigo
+
+let bichinhos = Number(prompt("quantos bichinhos voce tem?"));
+let i = 0;
+let bichos = [];
+if(bichinhos===0){
+console.log("Que pena! Você pode adotar um pet");
+}
+else{
+    while (i <= bichinhos -1) {
+        bichos[i] = prompt("nome dos bichinhos");
+        i++;
+    } 
+}
+console.log(bichos);
+
+
+
+const arrayOriginal = [80, 30, 130, 40, 60, 21, 70, 120, 90, 103, 110, 55]
+
+for (const iterator of arrayOriginal) {
+    if (iterator %2===0 ){
+        console.log(iterator %2=== arrayOriginal)
+    }
+    
+}
+for (const iterator of arrayOriginal){
+console.log(iterator / 10)
+}
+
+const arrayoriginal2 = ["a", "b", "c", "d"];
+for (const i of arrayoriginal2) {
+  console.log(i);
+}
